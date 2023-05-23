@@ -19,6 +19,8 @@ buttons.forEach(function (btn) {
       value.style.color = "green";
     } else if (count < 0) {
       value.style.color = "red";
+    } else {
+      value.style.color = "black";
     }
     value.textContent = count;
   });
